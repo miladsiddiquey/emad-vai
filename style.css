@@ -1,0 +1,128 @@
+/***GOOGLE FONT***/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/***HEADER SECTION***/
+
+
+.header{
+    background-color:#f5b33a;
+    clip-path: polygon(0 0, 100% 0, 100% 99%, 100% 80%, 0 100%);
+    padding-bottom:60px;
+}
+
+.home__img img{
+    width:90%;
+    height:500px;  
+}
+ 
+
+.home__title{
+    font-family: 'Bebas Neue', cursive;
+    color:#363958;
+}
+
+.button-titile{
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    color:white;
+    background-color: #cf3e38;
+    padding:10px 12px;
+    border-radius: 10px;
+    border:none;
+    
+}
+section{
+    margin-top:50px;
+}
+/* about section */
+.about-detail{
+    margin-top:200px;
+}
+/* why you choose us */
+
+.box img{
+    height:100px;
+    width:100px;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.title-color,.subtitle-color{
+    color:#363958;
+    
+}
+
+.detail{
+    display: grid;
+    justify-content:center;
+}
+/**our serveces **/
+.our-services{
+    background-color: #fffbf0;
+   padding-bottom: 50px;
+}
+/***our team section***/
+.social-icon{
+    font-size:25px;
+    color:#363958;
+   letter-spacing:10px ;
+   
+}
+.pic img{
+    height:200px;
+    width:170px;
+    border-radius: 100%;
+   
+   
+} 
+.our-team:hover{
+   opacity: .5 ;
+}
+.our-team:hover .social-icon{
+    color:rgb(50, 10, 194);
+    opacity: .9;
+   
+ }
+
+ 
+
+/* ===== CONTACT =====*/
+.contact__input{
+    width: 100%;
+    font-size: 1 rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid #0e2431;
+    outline: none;
+    margin-bottom: 2rem;
+  }
+  .contact__button{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 2 rem;
+    cursor: pointer;
+    margin-left: auto;
+    background-color: coral;
+    border-radius: 5px;
+  }
+
+  /***FOOTER SECTON***/
+  .footer{
+      background-color: darkkhaki;
+     
+  }
+.footer-detail{
+    margin-top:100px;
+}
+.social-icon{
+    margin-top:15px;
+} 
+.social-icon{
+    font-size:25px;
+    color:black;
+   letter-spacing:10px ;
+} 
