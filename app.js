@@ -28,7 +28,7 @@ const sr = ScrollReveal({
 
 function sandMail(params){
     let tempParams={
-        form_name:document.getElementById('formName').value,
+        form_name:document.getElementById('fromName').value,
         to_name:document.getElementById('toName').value,
         message:document.getElementById('msg').value,
 
