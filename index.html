@@ -24,7 +24,13 @@
   <!--====MAIN CSS LINK====-->
   <link rel="stylesheet" href="style.css">
 
-
+  <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+  (function() {
+  emailjs.init("user_TNQIjGJKb07VNHYu2GCET");
+  })();
+  </script>
+  
 </head>
 
 <body id="home">
@@ -277,11 +283,11 @@
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="contact__container bd-grid">
               <form action=""method="" class="contact__form">
-                <input type="text" placeholder="Name" id="username" name="username" class="contact__input" id="my-form">
-                <input type="mail" placeholder="Email"id="email" class="contact__input">
-                <textarea name="" id="massage" cols="0" rows="10" class="contact__input"></textarea>
+                <input type="text" placeholder="Name" id="toName" name="username" class="contact__input" >
+                <input type="mail" placeholder="Email"id="fromName" class="contact__input">
+                <textarea name="" id="msg" cols="0" rows="10" class="contact__input"></textarea>
 
-                <button type="submit" class="button-titile"> SUBMIT</button>
+                <button onclick="sandMail()" type="submit" class="button-titile"> SUBMIT</button>
               </form>
               <div class=" text-center success"id="status"></div>
             </div>
